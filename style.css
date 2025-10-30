@@ -207,7 +207,7 @@ ul li{
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 45px;   
+    margin-top: 22px;
 }
 /* dkv */
 .jurusan .dkv .tombolDkv{
@@ -265,7 +265,7 @@ ul li{
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 45px;   
+    margin-top: 23px;   
 }
 .jurusan .rpl{
     background-color: #ededed;
@@ -395,8 +395,6 @@ p.deskripsi-dkv{
 .desc-dkv{
     color: #0c084c;
 }
-
-
 .kecil-font{
     font-size: 45px;
     font-weight: 400;
