@@ -1,0 +1,794 @@
+*{
+    font-family: poppins;
+    text-decoration: none;
+    list-style-type: none;
+    color: #687279;
+    font-weight: 500;
+    font-size: 15px;
+}
+.contactMe{
+    background-color: #F1A204;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+}
+.atasDesc{
+    color: #0c084c;
+}
+li.macam2Jurusan{
+    margin: 0% 0% 0% -7%;
+}
+.beranda{
+    color: #F1A204;
+}
+.container{
+    width: 72%;
+    margin: auto;
+}
+.hero{
+    width: 85%;
+    background-color: white;
+    margin: auto;
+}
+br{
+    line-height: 1px;
+}
+h3{
+    color: #F1A204;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5%;
+}
+h1{
+    color: #0c084c;
+    font-weight: 600;
+    font-size: 50px;
+}
+span{
+    font-weight: 300;
+    color: #0c084c;
+    font-size: 16px;
+}
+img.gambarOrang{
+    padding: 8% 0% 0% 20%;
+}
+/* img{
+    padding: 0% 4% 0% 4%;
+} */
+i{
+    color: #F1A204;
+}
+h1.judul-Komp{
+    line-height: 60px;
+}
+img.partner-gambar{
+    padding: 0% 4% 0% 4%;
+}
+
+.small-weight{
+    font-weight: 400;
+}
+.navbar{
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.menu ul li{
+    margin: 10px 15px 0px 0px;
+    text-align: center;
+}
+a:hover{
+    color: #F1A204;
+}
+a.contactMe:hover{
+    background-color: #0c084c;
+    color: white;
+}
+.hero{
+    display: flex;
+}
+.kontakWA{
+    display: flex;
+    margin: 0px 20px 0px 20px;
+}
+.daftar-Btn {
+    color: white;
+    background-color: #F1A204;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.program-Btn{
+    color: #0c084c;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 2px;
+}
+.partner{
+    width: 85%;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+}
+.partner-head{
+    color: #0c084c;   
+    margin: auto;
+    padding: 5% 0% 0% 0%;
+}
+.fotoPartner{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.perusahaan{
+    color: #0c084c;
+}
+
+
+.judul{
+    text-align: center;
+}
+.judul-Mengapa{
+    font-size: 40px;
+    margin: 5% 0% 0% ;
+}
+.judulAlasan{
+    font-size: 40px;
+}
+.kartu{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    background-color: #f2f5f7;
+    /* width: 30%; */
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 0% 2% 0% 2%;
+    justify-content: center;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.rpl,
+.tkj,
+.dkv:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.voc-Text{
+    font-size: 20px;
+    color: #111518;
+    font-weight: 600;
+}
+ul.list-Voc{
+    padding: 0% 0% 10% 5%;
+}
+ul li{
+    margin: 1% 0% 1% 0;
+}
+
+/* jurusan */
+.jurusan{
+    font-family: poppins;
+    display: flex;
+    margin: 0px 140px 0px 140px;
+}
+.jurusan .tkj{
+    background-color: #ededed;
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.jurusan .tkj .tombolTkj{
+    background-color: #f1a204;
+    color:#ededed;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.jurusan .tkj .descTkj{
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+.donlotTkj{
+    background-color: #0c084c;
+    color: #ededed;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 45px;   
+}
+/* dkv */
+.jurusan .dkv .tombolDkv{
+    background-color: #f1a204;
+    color:#ededed;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.descDkv{
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+.donlotDkv{
+    background-color: #0c084c;
+    color: #ededed;         
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 45px;   
+    text-align: center;
+}
+.jurusan .dkv{
+    background-color: #ededed;
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+/* rpl */
+.jurusan .rpl{
+    background-color: #ededed;
+    color: rgb(95, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.jurusan .rpl .tombolRpl{
+    background-color: #f1a204;
+    color:#ededed;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.descRpl{
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+.donlotRpl{
+    background-color: #0c084c;
+    color: #ededed;         
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 45px;   
+}
+.jurusan .rpl{
+    background-color: #ededed;
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* Gallery Container */
+.container_gallery{
+    max-width: 1300px;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.filter-buttons{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.filter-btn{
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    border: 2px solid #ddd;
+    background: none;
+    color: #555;
+    border-radius: 8px;
+    padding: 9px 18px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+    cursor: pointer;
+}
+.filter-btn.active,
+.filter-btn:hover{
+    background-color: #ff6b00;
+    color: white;
+    border-color: #ff6b00;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.gambar{
+    width: 30%;
+    transition: all 0.5s ease;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.gambar img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 8px; */
+}
+.gambar:hover{
+    transform: scale(1.05);
+}
+
+
+.judul-portofolio{
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+.container_tkj{
+    width: 72%;
+    margin: auto;
+}
+.container_rpl{
+    /* max-width: 1300px; */
+    width: 72%;
+    margin: auto;
+    
+}
+
+
+.dkvVid-Portofolio{
+    display: flex;
+    justify-content: end;
+}
+p.deskripsi-dkv{
+    color: #0c084c;
+    font-weight: 400;
+    font-size: 13px;
+}
+.deskripsi-dkv{
+    margin: 5% 5% 0% 0%;
+}
+.list-dkv{
+    margin: 30px 0px 50px -30px;
+}
+.dkv-lists{
+    font-weight: 300;
+    font-size: 14px;
+}
+.otherPorto-dkv{
+    background-color: #0c084c;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 5px 10px 5px;
+    margin: 10% 20% 5% 0% ;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.video-dkv{
+    margin: 5% 3% 5% 0%;
+    /* background-color: #111518; */
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.credit-dkv{
+    color: #0c084c;
+    margin: 0% 0% 0% 0%;
+    font-size: 20px;
+}
+.desc-dkv{
+    color: #0c084c;
+}
+
+
+.kecil-font{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.container_tkj{
+    width: 72%;
+    margin: auto;
+}
+
+.container-tkjCard{
+    width: 80%;
+    margin: auto;
+}
+.kartu-tkj{
+    display: flex;
+}
+.tkjVid-Portofolio{
+    display: flex;
+    justify-content: end;
+}
+p.deskripsi-tkj{
+    color: #0c084c;
+    font-weight: 400;
+    font-size: 13px;
+}
+.deskripsi-tkj{
+    margin: 5% 5% 0% 0%;
+}
+.list-tkj{
+    margin: 30px 0px 50px -30px;
+}
+.tkj-lists{
+    font-weight: 300;
+    font-size: 14px;
+}
+.otherPorto-tkj{
+    background-color: #0c084c;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 5px 10px 5px;
+    margin: 10% 20% 5% 0% ;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.video-tkj{
+    margin: 5% 3% 5% 0%;
+    /* background-color: #111518; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+.credit-tkj{
+    color: #0c084c;
+    margin: 0% 0% 0% 0%;
+    font-size: 20px;
+}
+.desc-tkj{
+    color: #0c084c;
+}
+.tkjCard-text{
+    color: #0c084c;
+}
+.tkjCard-desc{
+    color: #0c084c;
+    font-weight: 300;
+    font-size: 12px;
+}
+.tkj-card{
+    width: 25%;
+    height: 100%;
+    margin: 0% 2% 0% 2%;
+}
+.cardModul-tkj{
+    background-color: #F1A204;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 5px 10px 5px;
+    /* margin: 10% 20% 5% 0% ; */
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.rplVid-Portofolio{
+    display: flex;
+    justify-content: end;
+}
+p.deskripsi-rpl{
+    color: #0c084c;
+    font-weight: 400;
+    font-size: 13px;
+}
+.deskripsi-rpl{
+    margin: 5% 5% 0% 0%;
+}
+.list-rpl{
+    margin: 30px 0px 50px -30px;
+}
+.rpl-lists{
+    font-weight: 300;
+    font-size: 14px;
+    
+}
+.otherPorto-rpl{
+    background-color: #0c084c;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 5px 10px 5px;
+    margin: 10% 20% 5% 0% ;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.video-rpl{
+    margin: 5% 3% 5% 0%;
+    /* background-color: #111518; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+.rpl-card{
+    width: 23%;
+    height: 80%;
+    margin: 0% 2% 0% 2%;
+}
+.kartu-rpl{
+    display: flex;
+}
+.container-rplCard{
+    width: 90%;
+    margin: auto;
+}
+
+.hubSkrngDesc{
+    text-align: center;
+}
+.daftarDesc{
+    margin: -3% 0% 0% 0%;
+    color: #0c084c;
+    font-weight: 300;
+    font-size: 15px;
+}
+.daftarJudul{
+    font-size: 50px;
+}
+
+.googleMaps{
+    border-radius: 4px;
+}
+
+.fontGede{
+    font-weight: 600;
+}
+.isiHubungi{
+    display: flex;
+    margin-top: 3%;
+}
+.mapHubungi,
+.photoHubungi{
+    /* background-color: #111518; */
+    width: 33%;
+    margin: 0.2%;
+    text-align: center;
+}
+.descLokasi{
+    color: #0c084c;
+    font-weight: 400;
+}
+.descHubungi{
+    background-color: #F1A204;
+    border-radius: 40px;
+    width: 33%;
+    margin: 0.2%; 
+}
+.isiDescHubungi{
+    /* background-color: #0c084c; */
+    width: 60%;
+    margin: auto;
+    margin-top: 20%;
+    color: white;
+}
+#InteractHubungi{
+    background-color: #111518;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 70%;
+}
+#HubungiDesc{
+    color: white;
+}
+#HubungiGede{
+    font-weight: 700;
+    color: white;
+}
+
+.copyright{
+    margin-top: 8%;
+    padding: 20px 10px 20px 150px;
+    background-color: #e7e7e7;
+    font-weight: 300;
+}
+@media screen and (max-width: 430px) {
+    .menu ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        width: 60%;
+        margin: -2% 0% 0% -3%;
+    }
+    .judul-Komp{
+        font-size: 10vw;
+        width: 80%;
+        font-weight: 700;
+    }
+    .menu ul li{
+        margin: 3% 0% 3% -10%;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .container{
+        width: 98%;
+    }
+    .hero{
+        display: inline;
+    }
+    .kontakWA.program-Btn,
+    .daftar-Btn{
+        flex-direction: column;
+        width: 40%;
+    }
+    .photoOrang{
+        /* background-color: aqua; */
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+    }
+    .gambarOrang{
+        margin: 0% 0% 0% -18%;
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+    }
+    li.macam2Jurusan{
+    margin: 0% 0% 0% -13%;
+    }
+    .partner-head{
+        text-align: center;
+        margin: 5% 0% 5% 0%;
+    }
+    .fotoPartner{
+        flex-direction: column;
+    }
+    img.partner-gambar{
+        width: 35%;
+        margin: 3% 0% 3% 0%;
+    }
+    .kartu{
+        flex-direction: column;
+    }
+    .card{
+        margin: 2% 0% 2% 0%;
+    }
+    .jurusan{
+        flex-direction: column;
+        width: 98%;
+        /* background-color: aqua; */
+        margin: 0% 0% 0% 1%;
+    }
+
+    .kontakWA{
+        flex-direction: column;
+    }
+    .program-Btn,
+    .daftar-Btn{
+        margin: 0% 0% 0% -7%;
+        width: 70%;
+        text-align: center;
+    }
+    .orangReligius{
+        margin: 0% 0% 0% 12%;
+    }
+    .tombolTkj{
+        width: 90%;
+    }
+    .judul-portofolio{
+        font-size: 9vw;
+    }
+    .kecil-font{
+        font-size: 9vw;
+    }
+    .karyaPorto{
+        font-weight: 300;
+        width: 90%;
+    }
+    .container_tkj{
+        width: 95%;
+    }
+    .tkjVid-Portofolio{
+        flex-direction: column;
+    }
+    .dkvVid-Portofolio{
+        flex-direction: column;
+    }
+    .videoTkj,
+    .videoDkv{
+        width: 100%;
+        height: 200px;
+    }
+    .title-tkj{
+        text-align: center;
+    }
+    .deskripsi-tkj{
+        text-align: center;
+    }
+    .kartu-tkj{
+        flex-direction: column;
+        /* background-color: blue; */
+    }
+    .tkj-card{
+        width: 90%;
+        margin: 0% 0% 0% 3%;
+    }
+
+    .video-dkv{
+        margin: 0% 0% 0% 1%;
+    }
+    .title-dkv,
+    .deskripsi-dkv{
+        text-align: center;
+    }
+    .otherPorto-dkv,
+    .otherPorto-rpl,
+    .otherPorto-tkj{
+        margin: 0% 20% 0% 20%;
+    }
+    .filter-buttons{
+        margin-top: 8%;
+    }
+    .filter-btn{
+        margin: 1%;
+    }
+    .gambar{
+        width: 93%;
+        margin: 0% 0% 0% 4%;
+    }
+    .container_rpl{
+        width: 95%;
+    }
+    .rplVid-Portofolio,
+    .kartu-rpl{
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+    .rpl-card{
+        width: 95%;
+    }
+    .title-rpl,
+    .deskripsi-rpl{
+        text-align: center;
+    }
+    .video-rpl{
+        margin: 0% 0% 0% 10%;
+        width: 100%;
+    }
+    .isiHubungi{
+        flex-direction: column;
+    }
+    .mapHubungi{
+        margin: 0% 0% 0% 5%;
+    }
+    .descLokasi{
+        text-align: center;
+        width: 95%;
+        /* background-color: aqua; */
+    }
+    .photoHubungi{
+        /* background-color: blue; */
+        width: 95%;
+    }
+    .descHubungi{
+        width: 95%;
+        padding-bottom: 5%;
+    }
+    .copyright{
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+    }
+
+}
