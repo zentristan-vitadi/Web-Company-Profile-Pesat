@@ -158,9 +158,14 @@ a.contactMe:hover{
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.rpl,
-.tkj,
+
 .dkv:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.tkj:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.rpl:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .voc-Text{
@@ -179,7 +184,11 @@ ul li{
 .jurusan{
     font-family: poppins;
     display: flex;
-    margin: 0px 140px 0px 140px;
+    /* margin: 0px 140px 0px 140px; */
+    width: 90%;
+    margin: auto;
+    
+    padding: 0% 5% 0% 10%;
 }
 .jurusan .tkj{
     background-color: #ededed;
@@ -189,6 +198,7 @@ ul li{
     padding: 20px;
     margin: 10px;
     border-radius: 15px;
+    transition: 0.5s;
 }
 .jurusan .tkj .tombolTkj{
     background-color: #f1a204;
@@ -201,13 +211,22 @@ ul li{
     color:rgb(119, 119, 119);
     font-weight: 400;
 }
+.descTkj ul li{
+    margin-left: -10%;
+}
+.descRpl ul li{
+    margin-left: -10%;
+}
+.descDkv ul li{
+    margin-left: -10%;
+}
 .donlotTkj{
     background-color: #0c084c;
     color: #ededed;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 22px;
+    cursor: pointer;
 }
 /* dkv */
 .jurusan .dkv .tombolDkv{
@@ -226,7 +245,7 @@ ul li{
     color: #ededed;         
     padding: 15px;
     border-radius: 10px;
-    margin-top: 45px;   
+    cursor: pointer;
     text-align: center;
 }
 .jurusan .dkv{
@@ -237,6 +256,7 @@ ul li{
     padding: 20px;
     margin: 10px;
     border-radius: 15px;
+    transition: 0.5s;
 }
 /* rpl */
 .jurusan .rpl{
@@ -247,6 +267,7 @@ ul li{
     padding: 20px;
     margin: 10px;
     border-radius: 3px;
+    transition: 0.5s;
 }
 .jurusan .rpl .tombolRpl{
     background-color: #f1a204;
@@ -265,7 +286,7 @@ ul li{
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 23px;   
+    cursor: pointer;
 }
 .jurusan .rpl{
     background-color: #ededed;
@@ -275,6 +296,7 @@ ul li{
     padding: 20px;
     margin: 10px;
     border-radius: 15px;
+    transition: 0.5s;
 }
 
 /* Gallery Container */
@@ -415,6 +437,8 @@ p.deskripsi-dkv{
 .tkjVid-Portofolio{
     display: flex;
     justify-content: end;
+    width: 90%;
+    margin: auto;
 }
 p.deskripsi-tkj{
     color: #0c084c;
@@ -478,12 +502,14 @@ p.deskripsi-tkj{
     font-weight: 400;
     font-size: 15px;
     text-align: center;
+    cursor: pointer;
 }
 
 
 .rplVid-Portofolio{
     display: flex;
     justify-content: end;
+    
 }
 p.deskripsi-rpl{
     color: #0c084c;
@@ -579,12 +605,47 @@ p.deskripsi-rpl{
     margin-top: 20%;
     color: white;
 }
+
+.judulSertifikasi{
+    margin: 5% 0% 0% 0%;
+    text-align: center;
+}
+.sertifikasiDesc{
+    color: #0c084c;
+    font-weight: 400;
+    text-align: center;
+}
+
+.containerSertifikasi{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.descLeft{
+    width: 40%;
+    margin: 1%;
+}
+.middleImage{
+    margin: 1%;
+}
+.descRight{
+    width: 40%;
+    margin: 1%;
+}
+.descSertifikasi{
+    color: #0c084c;
+    font-weight: 300;
+    margin: 10% 0%;
+}
 #InteractHubungi{
     background-color: #111518;
     color: white;
     padding: 10px;
     border-radius: 4px;
     width: 70%;
+    cursor: pointer;
 }
 #HubungiDesc{
     color: white;
@@ -593,13 +654,28 @@ p.deskripsi-rpl{
     font-weight: 700;
     color: white;
 }
+#descJurusan{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+}
 
+.orangReligius{
+    margin-left: 13%;
+}
+.container_rpl{
+    /* background-color: #555; */
+    width: 95%;
+}
 .copyright{
     margin-top: 8%;
     padding: 20px 10px 20px 150px;
     background-color: #e7e7e7;
     font-weight: 300;
 }
+.copyright h2{
+        font-weight: 300;
+    }
 @media screen and (max-width: 430px) {
     .menu ul{
         flex-direction: column;
@@ -667,7 +743,7 @@ p.deskripsi-rpl{
         flex-direction: column;
         width: 98%;
         /* background-color: aqua; */
-        margin: 0% 0% 0% 1%;
+        margin: 0% 0% 0% -8%;
     }
 
     .kontakWA{
@@ -731,10 +807,11 @@ p.deskripsi-rpl{
     .deskripsi-dkv{
         text-align: center;
     }
-    .otherPorto-dkv,
-    .otherPorto-rpl,
+    .otherPorto-dkv
+    .otherPorto-rpl
     .otherPorto-tkj{
         margin: 0% 20% 0% 20%;
+        cursor: pointer;
     }
     .filter-buttons{
         margin-top: 8%;
@@ -788,5 +865,23 @@ p.deskripsi-rpl{
         padding: 20px 0px 20px 0px;
         text-align: center;
     }
-
+    .copyright h2{
+        font-weight: 300;
+    }
+    .containerSertifikasi{
+        flex-direction: column;
+    }
+    .descLeft{
+        width: 95%;
+    }
+    .descRight{
+        width: 95%;
+    }
+    .judulSertifikasi{
+        line-height: 1.3;
+        margin: 10% 0%;
+    }
+    .sertifikasiDesc{
+        margin-bottom: 20%;
+    }
 }
